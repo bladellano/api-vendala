@@ -9,6 +9,7 @@ Você precisa criar uma API em Laravel que vai receber informações de um front
 * PHP 7.3.11
 * Apache Server 2.4 +
 * 8.0.18 MySQL Community Serve - GPL
+* Laravel 6.18.20
 
 #### Instalação
 A instalação do sistema pode ser feita seguindo os seguintes passos:
