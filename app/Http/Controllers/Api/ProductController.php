@@ -25,10 +25,7 @@ class ProductController extends Controller
         $data = ['data'=>$this->product->all()];
 
         if($bPagination)
-            $data = ['data'=>$this
-                ->product
-                ->orderBy('created_at', 'desc')
-                ->paginate(5)];
+            $data = ['data'=>$this->product->orderBy('created_at', 'desc')->paginate(5)];
         return response()->json($data);
     }
 

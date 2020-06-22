@@ -2,9 +2,6 @@
 Criação de produtos KIT via API:
 Este teste visa conhecer um pouco mais da forma em que você programa e como você vai se organizar para montar um produto do tipo KIT
 
-###Resumo do teste
-Você precisa criar uma API em Laravel que vai receber informações de um front-end desacoplado e cadastrar um produto no banco de dados.
-
 #### Dependências
 * PHP 7.3.11
 * Apache Server 2.4 +
@@ -53,7 +50,7 @@ php artisan serve
 8. [POST] /api/auth/login -> Retorna 200 Ok (Formulário de login - retorna access_token)
 9. [POST] /api/auth/me -> Retorna 200 Ok (Retorna um json com informações do usuário logado)
 10. [POST] /api/auth/logout -> Retorna 200 Ok (Retorna um json com informações de invalidação do token)
-
+>ATENÇÃO: Como o foco era somente através da api cadastar produtos com imagens, na relação de produtos através do frontend não será exibido, mas os arquivos estão sendo salvos em `storage\app\public\images`.
 ### Considerações
 Como o foco principal foi backend, o frontend ficou em outro repositório `https://github.com/bladellano/site_vendala`
 ### Creditos
