@@ -32,7 +32,7 @@ C:\xampp\htdocs\api_rest_laravel.sql
 ```
 * Baixar as dependências através do composer:
 ```bash
-composer update
+composer install
 ```
 * Para executar a aplicação. Dentro da C:\xampp\htdocs\api_vendala.
 Executar dentro da aplicação o comando, através de um terminal:
