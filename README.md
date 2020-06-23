@@ -50,6 +50,13 @@ php artisan serve
 8. [POST] /api/auth/login -> Retorna 200 Ok (Formulário de login - retorna access_token)
 9. [POST] /api/auth/me -> Retorna 200 Ok (Retorna um json com informações do usuário logado)
 10. [POST] /api/auth/logout -> Retorna 200 Ok (Retorna um json com informações de invalidação do token)
+
+* Caso precise do arquivo .json para importar e obter todos os endpoints para efeito de teste:
+```bash
+C:\xampp\htdocs\api_vendala\Insomnia_2020-06-22.json
+```
+
+
 >ATENÇÃO: Como o foco era somente através da api cadastar produtos com imagens; na relação de produtos através do frontend não será exibido as imagens do produto, mas os arquivos estão sendo salvos em `storage\app\public\images` e gravados no campo `path_img` da tabela `produtcs`.
 ### Considerações
 Como o foco principal foi backend, o frontend ficou em outro repositório `https://github.com/bladellano/site_vendala`
